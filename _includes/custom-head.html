@@ -4,8 +4,8 @@
   1. Head over to https://realfavicongenerator.net/ to add your own favicons.
   2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
 {% endcomment %}
-<link rel="icon" type="image/png" href="/media/favicon/favicon-48x48.png" sizes="48x48" />
-<link rel="icon" type="image/svg+xml" href="/media/favicon/favicon.svg" />
-<link rel="shortcut icon" href="/media/favicon/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/media/favicon/apple-touch-icon.png" />
-<link rel="manifest" href="/media/favicon/site.webmanifest" />
+<link rel="icon" type="image/png" href="{{ 'media/favicon/favicon-48x48.png' | relative_url }}" sizes="48x48" />
+<link rel="icon" type="image/svg+xml" href="{{ 'media/favicon/favicon.svg' | relative_url }}" />
+<link rel="shortcut icon" href="{{ 'media/favicon/favicon.ico' | relative_url }}" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ 'media/favicon/apple-touch-icon.png' | relative_url }}" />
+<link rel="manifest" href="{{ 'media/favicon/site.webmanifest' | relative_url }}" />
