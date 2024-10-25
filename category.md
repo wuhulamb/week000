@@ -11,6 +11,6 @@ permalink: /category/
       {% assign my_counter = my_counter | plus: 1 %}
     {%- endif -%}
   {% endfor %}
-<h3><a href="{{ c.url }}">{{ c.title }}({{ my_counter }})</a></h3>
+<h3><a href="{{ c.url | relative_url }}">{{ c.title }}({{ my_counter }})</a></h3>
 {% endfor %}
 
