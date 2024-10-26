@@ -66,6 +66,11 @@ article .post-content h2::before {
 	color: #2bbc8a;
 	content: "#";
   font-weight: 700;
-  font-size: 1.2em
+  font-size: 1.2em;
+}
+
+// scroll bar
+* {
+  scrollbar-color: #999 transparent;
 }
 
