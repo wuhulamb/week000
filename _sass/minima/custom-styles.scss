@@ -74,3 +74,13 @@ article .post-content h2::before {
   scrollbar-color: #999 transparent;
 }
 
+// figcaption
+figcaption {
+	text-align: center;
+	color: grey;
+	font-size: $base-font-size;
+}
+img {
+	margin-bottom: 0.5em;
+}
+
