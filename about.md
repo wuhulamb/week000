@@ -18,5 +18,5 @@ Hi，这里是wuhulamb's week000，记录科研相关的内容
 - 地理学思想史、常用方法模型
 - 系统编程能力
 
-更多精彩内容看这里 :point_right: [wuhulamb's blog](https://wuhulamb.pages.dev/)
+更多精彩内容看这里 :point_right: <a href="https://wuhulamb.pages.dev/" target="_blank">wuhulamb's blog</a>
 
