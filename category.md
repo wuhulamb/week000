@@ -4,6 +4,7 @@ title:  "Category"
 permalink: /category/
 ---
 
+<ul>
 {% for c in site.categories %}
   {% assign my_counter = 0 %}
   {% for p in site.posts %}
@@ -11,6 +12,6 @@ permalink: /category/
       {% assign my_counter = my_counter | plus: 1 %}
     {%- endif -%}
   {% endfor %}
-<h3><a href="{{ c.url | relative_url }}">{{ c.title }}（{{ my_counter }}）</a></h3>
+<li><a href="{{ c.url | relative_url }}">{{ c.title }}（{{ my_counter }}）</a></li>
 {% endfor %}
-
+</ul>

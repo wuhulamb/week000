@@ -84,3 +84,27 @@ img {
 	margin-bottom: 0.5em;
 }
 
+// home.html li add class="post-item"
+.post-list li {
+  display: flex;
+  align-items: center;
+	margin-bottom: 5px;
+	margin-left: 0;
+	line-height: 1.1;
+}
+.post-meta {
+  display: block;
+	text-align: left;
+	margin-right: 16px;
+	margin-top: -11px;
+	min-width: 100px;
+  font-size: 16px;
+}
+.post-link {
+  font-size: 1.1em;
+}
+
+// li line-height
+li {
+  line-height: 1.75;
+}
