@@ -85,12 +85,16 @@ img {
 }
 
 // home.html li add class="post-item"
+
 .post-list li {
-  display: flex;
-  align-items: center;
+  @media screen and (min-width: $on-large) {
+	display: flex;
 	margin-bottom: 5px;
-	margin-left: 0;
 	line-height: 1.1;
+  }
+  align-items: center;
+	margin-left: 0;
+	line-height: 1.6;
 }
 .post-meta {
   display: block;
@@ -98,10 +102,9 @@ img {
 	margin-right: 16px;
 	margin-top: -11px;
 	min-width: 100px;
-  font-size: 16px;
 }
 .post-link {
-  font-size: 1.1em;
+  font-size: 1.05em;
 }
 
 // li line-height
