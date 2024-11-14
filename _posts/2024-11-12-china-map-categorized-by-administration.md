@@ -16,7 +16,7 @@ my_category: "others"
 
 ## ArcMap & Photoshop
 
-地图制作使用ArcMap，最后右下角南海界线使用Photoshop
+地图使用ArcMap制作（地理坐标系: WGS_1984 -> 投影坐标系: Asia Lambert Conformal Conic Projection），最后右下角南海界线使用Photoshop绘制
 
 ## weibo图床 & baidu图片缓存
 
