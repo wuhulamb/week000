@@ -111,3 +111,22 @@ img {
 li {
   line-height: 1.75;
 }
+
+// pagination
+.pagination {
+  display: inline-block;
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+  color: #bbbbbb;
+  font-size: 0.9em;
+  a {
+    padding: 4px 6px;
+    border-radius: 5px;
+    color: #bbbbbb;
+    &:hover:not(.active) {
+      color: #eee
+    }
+  }
+}

@@ -98,3 +98,14 @@ exclude:
 
 # Outputting
 permalink: /p/:title/
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 6
+  debug: false
+  permalink: '/page/:num/'
+  limit: 0
+  title: ''
+  sort_field: 'date'
+  sort_reverse: true
