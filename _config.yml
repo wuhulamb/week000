@@ -73,8 +73,6 @@ minima:
 
 # custom
 collections:
-  categories:
-    output: true
   pages:
     output: true
 
@@ -85,8 +83,8 @@ defaults:
     values:
       layout: "post"
   - scope:
-      path: ""
-      type: "categories"
+      path: "_pages/categories"
+      type: "pages"
     values:
       layout: "category"
 

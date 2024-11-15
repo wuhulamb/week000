@@ -13,7 +13,8 @@ layout: base
 
   <ul class="post-list">
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    {% assign filtered_posts = site.posts | where: 'my_category', page.title %}
+		{% assign category_name = page.title %}
+    {% assign filtered_posts = site.categories[category_name] %}
     {%- for post in filtered_posts -%}
     <li>
       <span class="post-meta">{{ post.date | date: date_format }}</span>

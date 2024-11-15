@@ -1,7 +1,7 @@
 ---
 title:       "突然发现自己可以画很好看的地图了"
 date:        "2024-11-12 11:50:00 +0800"
-my_category: "others"
+categories:  "others"
 ---
 
 <figure>

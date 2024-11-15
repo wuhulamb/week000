@@ -130,3 +130,14 @@ li {
     }
   }
 }
+
+// category
+.category-list-count {
+  color: #908d8d;
+}
+.category-list-count:before {
+  content: " (";
+}
+.category-list-count:after {
+  content: ")";
+}

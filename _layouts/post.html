@@ -24,13 +24,25 @@ layout: base
           {{ mdate | date: date_format }}
         </time>
       {%- endif -%}
-			{%- if page.my_category -%}
-			  {% for c in site.categories %}
-				  {%- if c.title == page.my_category -%}
-					  {% assign category_url = c.url %}
+			{%- if page.categories -%}
+			  {% assign top_category = page.categories[0] %}
+				{%- if page.categories.size > 1 -%}
+				  {% assign sec_category = page.categories[1] %}
+				{%- endif -%}
+			  {% for page in site.pages %}
+				{%- if page.path contains 'categories/' -%}
+				  {%- if page.title == top_category -%}
+					  {% assign top_category_url = page.url %}
 					{%- endif -%}
+					{%- if sec_category and page.title == sec_category -%}
+					  {% assign sec_category_url = page.url %}
+					{%- endif -%}
+				{%- endif -%}
 				{% endfor %}
-				| <span><a href="{{ category_url | relative_url }}">{{ page.my_category }}</a></span>
+				| <span><a href="{{ top_category_url | relative_url }}">{{ top_category }}</a></span>
+				{% if sec_category %}
+				-> <span><a href="{{ sec_category_url | relative_url }}">{{ sec_category }}</a></span>
+			  {% endif %}
 			{%- endif -%}</p>
   </header>
 
