@@ -1,5 +1,5 @@
 ---
-title:   "原生jekyll给博客加入多层级分类"
+title:   "使用原生jekyll给博客加入多层级分类"
 date:    "2024-11-15 17:06:00 +0800"
 categories: "others blog"
 ---
@@ -55,7 +55,7 @@ belong_to: "others"
 
 ```text
 ---
-title:   "原生jekyll给博客加入多层级分类"
+title:   "使用原生jekyll给博客加入多层级分类"
 date:    "2024-11-15 17:06:00 +0800"
 categories: "others blog"
 ---
