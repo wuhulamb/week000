@@ -8,6 +8,7 @@
 layout: home
 pagination: 
   enabled: true
+  per_page: 6
 ---
 
 <p>Hi, 这里是wuhulamb的新站点.</p>
@@ -20,23 +21,3 @@ pagination:
 
 <h2 id="writing" style="color: #2bbc8a;">Writing</h2>
 
-<ul class="post-list">
-{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-{% for post in paginator.posts %}
-<li>
-<span class="post-meta">{{ post.date | date: date_format }}</span>
-<h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-</li>
-{% endfor %}
-</ul>
-
-<div class="pagination">
-{% if paginator.previous_page %}
-<a href="{{ paginator.previous_page_path | relative_url }}"><i class="fa-solid fa-angle-left"></i></a>
-{% endif %}
-<span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-{% if paginator.next_page %}
-<a href="{{ paginator.next_page_path | relative_url }}"><i class="fa-solid fa-angle-right"></i></a>
-{% endif %}
-</div>
-      

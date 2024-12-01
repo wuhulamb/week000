@@ -30,14 +30,12 @@ layout: base
 				  {% assign sec_category = page.categories[1] %}
 				{%- endif -%}
 			  {% for page in site.pages %}
-				{%- if page.path contains 'categories/' -%}
 				  {%- if page.title == top_category -%}
 					  {% assign top_category_url = page.url %}
 					{%- endif -%}
 					{%- if sec_category and page.title == sec_category -%}
 					  {% assign sec_category_url = page.url %}
 					{%- endif -%}
-				{%- endif -%}
 				{% endfor %}
 				| <span><a href="{{ top_category_url | relative_url }}">{{ top_category }}</a></span>
 				{% if sec_category %}

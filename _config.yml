@@ -28,8 +28,8 @@ plugins:
 # If you want to link only specific pages in your header, use this and add the path to the pages
 # in order as they should show up.
 header_pages:
-  - _pages/category.md
-  - _pages/about.md
+  - pages/category.md
+  - pages/about.md
 
 # Set to `true` to show excerpts on the homepage.
 #show_excerpts: false
@@ -72,9 +72,6 @@ minima:
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
 
 # custom
-collections:
-  pages:
-    output: true
 
 defaults:
   - scope:
@@ -83,7 +80,7 @@ defaults:
     values:
       layout: "post"
   - scope:
-      path: "_pages/categories"
+      path: "pages/categories"
       type: "pages"
     values:
       layout: "category"
@@ -100,7 +97,6 @@ permalink: /p/:title/
 # Pagination Settings
 pagination:
   enabled: true
-  per_page: 6
   debug: false
   permalink: '/page/:num/'
   limit: 0

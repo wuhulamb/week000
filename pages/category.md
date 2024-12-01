@@ -7,18 +7,17 @@ permalink: /category/
 <ul>
 {% for top_page in site.pages %}
   {% assign top_found = false %}
-  {% if top_page.path contains 'categories/' and top_page.level == '1' %}
+  {% if top_page.title != '' and top_page.level == '1' %}
     {% assign top_category = top_page.title %}
     {% assign top_category_url = top_page.url %}
     {% assign top_found = true %}
 <li>
 <a class="category-list-link" href="{{ top_category_url | relative_url }}">{{ top_category }}</a>
 <span class="category-list-count">{{ site.categories[top_category].size }}</span>
-
 {% if top_found %}
 {% assign sec_found = false %}
 {% for sec_page in site.pages %}
-  {% if sec_page.path contains 'categories/' and sec_page.level == '2' and sec_page.belong_to == top_category and site.categories[sec_page.title].size > 0 %}
+  {% if sec_page.title != '' and sec_page.level == '2' and sec_page.belong_to == top_category and site.categories[sec_page.title].size > 0 %}
     {% assign sec_found = true %}
   {% endif %}
 {% endfor %}
@@ -26,7 +25,7 @@ permalink: /category/
 {% if sec_found %}
 <ul>
   {% for sec_page in site.pages %}
-    {% if sec_page.path contains 'categories/' and sec_page.level == '2' and sec_page.belong_to == top_category %}
+    {% if sec_page.title != '' and sec_page.level == '2' and sec_page.belong_to == top_category %}
       {% assign sec_category = sec_page.title %}
       {% assign sec_category_url = sec_page.url %}
 <li>
