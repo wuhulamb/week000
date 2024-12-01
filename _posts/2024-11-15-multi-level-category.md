@@ -49,7 +49,7 @@ belong_to: "others"
 ---
 ```
 
-<figure><figcaption>（top_level_category.md中无 `belong_to` 且 `level` 值为1）</figcaption></figure>
+<figure><figcaption>（这是<a href='{{ "category/others/blog/" | relative_url }}'>blog</a>的目录页文件，如果是一级目录， <code class="language-plaintext highlighter-rouge">level</code> 值为1 & 无 <code class="language-plaintext highlighter-rouge">belong_to</code> ）</figcaption></figure>
 
 然后post的Front Matter是：
 
@@ -59,6 +59,18 @@ title:   "使用原生jekyll给博客加入多层级分类"
 date:    "2024-11-15 17:06:00 +0800"
 categories: "others blog"
 ---
+```
+
+前面提到的category.md文件泛指目录页文件，下面是这些文件的名称：
+
+```text
+.
+├── 0100week000.md
+├── 0200literature.md
+├── 0300idea.md
+├── 0400diary.md
+├── 0500others.md
+└── 0501blog.md
 ```
 
 Tips: <a href="https://jekyllrb.com/docs/posts/#tags-and-categories" target="_blank">jekyll支持blog多categories</a>，一篇博客可多个category，且支持使用 `site.categories[category_name]` 搜索名称为 `category_name` 的category下所有的posts
