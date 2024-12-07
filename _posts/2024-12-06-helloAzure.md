@@ -9,7 +9,7 @@ categories: "others"
 <figcaption>白嫖的Azure云服务器（还有公网ip欸！）</figcaption>
 </figure>
 
-申请条件：以edu.cn结尾的邮箱
+> 申请条件：以edu.cn结尾的邮箱
 
 刷知乎看到了微软Azure云服务器学生可以免费申请，参照<a href="https://blog.qzink.me/archives/4.html" target="_blank">这篇教程</a>进行申请。
 
