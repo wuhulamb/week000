@@ -65,3 +65,7 @@ sudo apt install shadowsocks-libev
 
 然后，就可以自由访问全世界了！
 
+<figure>
+<img src="https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/large/008kbRJbly1hwcg7legosj31hc0sc473.jpg" alt="ss-works.jpg">
+<figcaption>shadowsocks配置成功</figcaption>
+</figure>
