@@ -91,6 +91,7 @@ exclude:
   - README.md
   - push.sh
   - minima.gemspec
+  - week000.py
 
 # Outputting
 permalink: /p/:title/
