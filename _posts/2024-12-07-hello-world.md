@@ -9,16 +9,19 @@ categories: "others"
 <figcaption>hello Google!</figcaption>
 </figure>
 
-<figure>
-<img src="https://image.baidu.com/search/down?url=https://wx3.sinaimg.cn/large/008kbRJbly1hwcg7ldypij31fk0s7jw0.jpg" alt="hello-gpt.jpg">
-<figcaption>hello ChatGPT!</figcaption>
-</figure>
-
 > 前提条件：有一台可以访问外网的机器
 
 使用Azure云服务器尝试ping了一下google.com，可以ping通，然后curl了google的首页，也可以打印，立即想到可以做一个vps访问全世界！
 
 然后就翻出了之前收藏的shadowsocks资料，开干！
+
+主要参考资料有：
+
+<ul>
+  <li><a href="https://shadowsocks5.github.io/en/index.html" target="_blank">shadowsocks.org镜像站（Mirror in 2017）</a></li>
+  <li><a href="https://frost-lee.github.io/shadowsocks-ubuntu/" target="_blank">Setting Up Shadowsocks Service on an Ubuntu Server（博客）</a></li>
+  <li><a href="https://github.com/shadowsocks/" target="_blank">shadowsocks官方github仓库（可以下载客户端程序）</a></li>
+</ul>
 
 ## 1. 服务器安装shadowsocks-libev
 
@@ -46,13 +49,18 @@ sudo apt install shadowsocks-libev
 
 需要注意的是，"server"要填写**0.0.0.0**，表示服务器处于listening状态
 
+<figure>
+<img src="https://image.baidu.com/search/down?url=https://wx4.sinaimg.cn/large/008kbRJbly1hwcg7leonzj31hc0s6jy7.jpg" alt="ss-server.jpg">
+<figcaption>ss-server运行示例</figcaption>
+</figure>
+
 ## 3. 安装客户端
 
 先根据配置文件填入基本信息，再从任务栏右键客户端打开全局代理
 
 <figure>
 <img src="https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/large/008kbRJbly1hwch0csuo6j30ce0cwn2d.jpg" alt="ss-client.jpg">
-<figcaption>打开全局代理</figcaption>
+<figcaption>桌面客户端打开全局代理</figcaption>
 </figure>
 
 然后，就可以自由访问全世界了！
