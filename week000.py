@@ -1,3 +1,4 @@
+# generate pages/week000.md
 import os
 import re
 x = os.listdir('_posts')
