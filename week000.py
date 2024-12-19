@@ -7,7 +7,7 @@ for _ in x:
     m = re.search('.*?week\d{3}\\.md', _)
     if m:
         week000.append(m.group())
-week000.sort()
+week000.sort(reverse=True)
 
 front_matter = ['---\n', 'layout: page\n', 'title: Week000\n', 'permalink: /week000/\n', '---\n', '\n']
 with open('pages/week000.md', 'w') as w:
