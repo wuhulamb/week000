@@ -4,7 +4,7 @@ date:       "2024-12-20 22:59:00 +0800"
 categories: "others"
 ---
 
-昨天打开学校邮箱找材料的时候突然发现<a href="https://education.github.com/pack" target="_blank">GitHub学生包</a>申请成功了（十天前的邮件 ...），所以今天就迫不及待地申请了<a href="https://nc.me/" target="_blank">Namecheap</a>的域名耍耍（GitHub学生包可以免费申请namecheap域名使用一年）。随即把本站的初始域名<https://week000.pages.dev/>换成了<https://week000.wuhulamb.me/>（在namecheap的控制台加入一条CNAME映射；在CloudFlare的站点自定义域名添加映射）
+昨天打开学校邮箱找材料的时候突然发现<a href="https://education.github.com/pack" target="_blank">GitHub学生包</a>申请成功了（十天前的邮件 ...），所以今天就迫不及待地申请了<a href="https://nc.me/" target="_blank">Namecheap</a>的域名耍耍（GitHub学生包可以免费申请namecheap域名使用一年）。随即把本站的初始域名 `https://week000.pages.dev/` 换成了 `https://week000.wuhulamb.me/` （在namecheap的控制台加入一条CNAME映射；在CloudFlare的站点自定义域名添加映射）
 
 当然，有了域名和服务器，自然会想把服务托管到自己的服务器上（不然服务器不就浪费了吗）。我比较熟的是静态网站（因为这个最简单），所以想实现的是通过namecheap的域名能直接访问服务器上的静态网站资源（之前一直使用Github Pages或者CloudFlare的托管服务）
 
@@ -13,6 +13,13 @@ categories: "others"
 ## 1. 在域名服务商加入A记录
 
 A记录：将域名映射到ipv4
+
+映射完成后需要一两分钟解析，可以通过 `nslookup` 命令查询域名的ip。
+
+```text
+nslookup test.wuhulamb.me         # 使用本机的DNS服务器查询ip
+nslookup test.wuhulamb.me 8.8.8.8 # 使用Google的DNS服务器查询ip
+```
 
 ## 2. 配置服务器nginx
 
