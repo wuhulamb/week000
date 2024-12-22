@@ -47,8 +47,14 @@ server {
 
 root后面的路径即静态网站资源的存放路径，server_name填写设置的域名（nginx根据域名判断访问什么资源），index后面填首页的文件
 
+配置完成后需要重启nginx服务使其生效：
+
+```text
+sudo systemctl restart nginx
+```
+
 ### （重要）修改/etc/nginx/nginx.conf的user
 
 /etc/nginx/nginx.conf文件默认user为www-data，如果不修改，访问会出现403 forbidden，原因是www-data没有访问网站资源的权限，修改成网站资源所属的用户即可。
 
-需要说明的是：nginx有一个Master Process用户是root，由它创建的Worker Process用户是www-data（默认），这是OK的。
+需要说明的是：默认情况下nginx的Master Process用户是root，由它创建的Worker Process用户是www-data。
