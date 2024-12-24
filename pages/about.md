@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi，这里是wuhulamb's week000，记录科研相关的内容
+Hi，这里是wuhulamb's week000，记录~~科研~~相关的内容
 
 ## Category
 
@@ -20,5 +20,5 @@ Hi，这里是wuhulamb's week000，记录科研相关的内容
 - 地理学思想史、常用方法模型
 - 系统编程能力
 
-更多精彩内容看这里 👉 <a href="https://wuhulamb.pages.dev/" target="_blank">wuhulamb's blog</a>
+更多精彩内容看这里 👉 <a href="https://wuhulamb.pages.dev/" target="_blank">wuhulamb's blog</a> （因故停更，但是也不妨碍看看，说不定可以找到一些什么 🤓👆）
 
