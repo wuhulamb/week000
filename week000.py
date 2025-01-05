@@ -26,6 +26,6 @@ with open('pages/week000.md', 'w') as w:
                     if count == 1:
                         week = re.search('.*?(week\d{3})\\.md', _).group(1)
                         line = re.match('## 本期回顾(.*)', line).group(1)
-                        line = '## [%s]({{ "p/%s/" | relative_url }})%s' %(week, week, line)
+                        line = '## [%s]({{ "p/%s/" | relative_url }})%s\n' %(week, week, line)
                     w.write(line)
 print('week000.md has been generated')
