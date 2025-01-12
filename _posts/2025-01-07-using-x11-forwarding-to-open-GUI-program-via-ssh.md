@@ -1,7 +1,7 @@
 ---
 title:      "使用X11转发做到SSH连接Linux打开图形程序"
 date:       "2025-01-07 19:41:00 +0800"
-categories: "others"
+categories: "计算机"
 ---
 
 假设你有一台没有显示器的机器（Linux系统），并且你只能通过SSH连接它。为了能够使用它，你认真学习了很多命令，然而就在你以为再也不需要什么图形界面的时候，你遇到了一个**必须使用浏览器登录认证身份联网**的问题（~~等有空补上这篇博客~~ 👉 [使用selenium模拟浏览器登录校园网]({{ "p/using-selenium-to-login-campus-network/" | relative_url }})）。

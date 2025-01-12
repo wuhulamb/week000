@@ -1,7 +1,7 @@
 ---
 title:      "你好，世界！再见，GFW！"
 date:       "2024-12-07 16:53:00 +0800"
-categories: "others"
+categories: "计算机"
 ---
 
 <figure>

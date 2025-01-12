@@ -1,7 +1,7 @@
 ---
 title:      "白嫖一年微软Azure云服务器"
 date:       "2024-12-06 16:55:00 +0800"
-categories: "others"
+categories: "计算机"
 ---
 
 <figure>

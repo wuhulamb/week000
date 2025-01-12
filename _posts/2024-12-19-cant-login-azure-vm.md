@@ -1,7 +1,7 @@
 ---
 title:      "Azure云服务器IP被ban不能登录😢"
 date:       "2024-12-19 10:51:00 +0800"
-categories: "others"
+categories: "计算机"
 ---
 
 十天前刚刚[向世界发出了“你好”的问候]({{ "p/hello-world/" | relative_url }})，没想到昨天就和世界失联了，更糟的是连Azure服务器都登不上了。

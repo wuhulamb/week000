@@ -1,7 +1,7 @@
 ---
 title:      "nginx部署静态网站"
 date:       "2024-12-20 22:59:00 +0800"
-categories: "others"
+categories: "计算机"
 ---
 
 昨天打开学校邮箱找材料的时候突然发现<a href="https://education.github.com/pack" target="_blank">GitHub学生包</a>申请成功了（十天前的邮件 ...），所以今天就迫不及待地申请了<a href="https://nc.me/" target="_blank">Namecheap</a>的域名耍耍（GitHub学生包可以免费申请namecheap域名使用一年）。随即把本站的初始域名 `https://week000.pages.dev/` 换成了 `https://week000.wuhulamb.me/` （在namecheap的控制台加入一条CNAME映射；在CloudFlare的站点自定义域名添加映射）

@@ -1,7 +1,7 @@
 ---
 title:      "Linux命令行使用ss-local问候世界你好"
 date:       "2025-01-05 21:22:00 +0800"
-categories: "others"
+categories: "计算机"
 ---
 
 需要安装的工具是shadowsocks-libev（服务端ss-server和客户端ss-local都包含在里面），安装命令可参考[你好，世界！再见，GFW！]({{ "p/hello-world/" | relative_url }})

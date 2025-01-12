@@ -1,7 +1,7 @@
 ---
 title:   "使用原生jekyll给博客加入多层级分类"
 date:    "2024-11-15 17:06:00 +0800"
-categories: "others blog"
+categories: "计算机 blog"
 ---
 
 博客慕多层级分类久矣，今天终于实现了！
@@ -49,7 +49,7 @@ belong_to: "others"
 ---
 ```
 
-<figure><figcaption>（这是<a href='{{ "category/others/blog/" | relative_url }}'>blog</a>的目录页文件，如果是一级目录， <code class="language-plaintext highlighter-rouge">level</code> 值为1 & 无 <code class="language-plaintext highlighter-rouge">belong_to</code> ）</figcaption></figure>
+<figure><figcaption>（这是<a href='{{ "category/computer/blog/" | relative_url }}'>blog</a>的目录页文件，如果是一级目录， <code class="language-plaintext highlighter-rouge">level</code> 值为1 & 无 <code class="language-plaintext highlighter-rouge">belong_to</code> ）</figcaption></figure>
 
 然后post的Front Matter是：
 
