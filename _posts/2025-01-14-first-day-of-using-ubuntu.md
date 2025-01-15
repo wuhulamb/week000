@@ -24,6 +24,8 @@ sudo apt install ttf-mscorefonts-installer
 
 微软的中文字体没有找到打包好的，就得自己去网上一个一个搜了（不过也可以找一台windows薅下来
 
+（1月15日：又在Github上找到了一个<a href="https://github.com/zyh1102/fonts" target="_blank">有很多商业字体文件的仓库</a>，里面有方正粗黑宋简体\[FZCHSJW.TTF\]）
+
 ## 安装
 
 使用 `apt install` 的字体文件就不用管啦，后面刷新一下就可以了，下面主要针对自己下载的字体文件，介绍如何安装。
