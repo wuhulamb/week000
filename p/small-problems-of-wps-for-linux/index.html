@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Linux版WPS修补指南 | wuhulamb’s week000</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Linux版WPS修补指南" />
+<meta name="author" content="wuhulamb" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="自从误把Ubuntu装进电脑硬盘后，笔者开始了神奇的Linux之旅。接着不可避免要寻找office办公三件套的替代软件，笔者最先安装了LibreOffice，打开.docx文档和Word布局不一致，于是又寻找其他替代软件，然后就找到了WPS for Linux。使用WPS打开.docx文件和Word布局一致，且速度很快（比LibreOffice快一点），而且免费无广告！（使用Windows版WPS的家人们，V我50解锁全部功能免广告🤑）" />
+<meta property="og:description" content="自从误把Ubuntu装进电脑硬盘后，笔者开始了神奇的Linux之旅。接着不可避免要寻找office办公三件套的替代软件，笔者最先安装了LibreOffice，打开.docx文档和Word布局不一致，于是又寻找其他替代软件，然后就找到了WPS for Linux。使用WPS打开.docx文件和Word布局一致，且速度很快（比LibreOffice快一点），而且免费无广告！（使用Windows版WPS的家人们，V我50解锁全部功能免广告🤑）" />
+<meta property="og:site_name" content="wuhulamb’s week000" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-02-07T15:33:00+08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Linux版WPS修补指南" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"wuhulamb"},"dateModified":"2025-02-07T15:33:00+08:00","datePublished":"2025-02-07T15:33:00+08:00","description":"自从误把Ubuntu装进电脑硬盘后，笔者开始了神奇的Linux之旅。接着不可避免要寻找office办公三件套的替代软件，笔者最先安装了LibreOffice，打开.docx文档和Word布局不一致，于是又寻找其他替代软件，然后就找到了WPS for Linux。使用WPS打开.docx文件和Word布局一致，且速度很快（比LibreOffice快一点），而且免费无广告！（使用Windows版WPS的家人们，V我50解锁全部功能免广告🤑）","headline":"Linux版WPS修补指南","mainEntityOfPage":{"@type":"WebPage","@id":"/p/small-problems-of-wps-for-linux/"},"url":"/p/small-problems-of-wps-for-linux/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="wuhulamb&apos;s week000" />
+<link rel="icon" type="image/png" href="/media/favicon/favicon-48x48.png" sizes="48x48" />
+<link rel="icon" type="image/svg+xml" href="/media/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/media/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/media/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="/media/favicon/site.webmanifest" />
+
+<link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">wuhulamb&#39;s week000</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/week000/">Week000</a><a class="page-link" href="/category/">Category</a><a class="page-link" href="/links/">Links</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Linux版WPS修补指南</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2025-02-07T15:33:00+08:00" itemprop="datePublished">
+        2025-02-07
+      </time>
+				| <span><a href="/category/computer/">计算机</a></span>
+				
+				-> <span><a href="/category/computer/ubuntu/">Ubuntu折腾小记</a></span>
+			  </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>自从<a href="/p/install-ubuntu-on-my-laptop-mistakenly/">误把Ubuntu装进电脑硬盘</a>后，笔者开始了神奇的Linux之旅。接着不可避免要寻找office办公三件套的替代软件，笔者最先安装了LibreOffice，打开.docx文档和Word布局不一致，于是又寻找其他替代软件，然后就找到了WPS for Linux。使用WPS打开.docx文件和Word布局一致，且速度很快（比LibreOffice快一点），而且免费无广告！（使用Windows版WPS的家人们，V我50解锁全部功能免广告🤑）</p>
+
+<p>虽然Linux版WPS是Office的最佳平替，但是也会存在一些小问题。本文将列出笔者使用过程中遇到的问题，并给出解决方案（笔者的电脑是x86_64架构，系统为Ubuntu 24.04）</p>
+
+<h2 id="0x00-缺少字体">0x00 缺少字体</h2>
+
+<p>因为存在字体版权问题，所以WPS for Linux并没有附带字体文件，而Ubuntu自带的字体都是用惯了Windows的B从未听说过的开源字体。当B打开老师同学发给ta的文件时，自然会出现显示异常的情况</p>
+
+<p>解决办法详见 👉 <a href="/p/first-day-of-using-ubuntu/">使用Ubuntu的第一天是装…字体？</a></p>
+
+<h2 id="0x01-导出pdf失败">0x01 导出PDF失败</h2>
+
+<p>WPS更新缓慢，PDF导出功能使用的是libtiff.so.5库（Ubuntu 24.04安装的是libtiff.so.6），因为libtiff.so.6向下兼容，所以直接加一个symbolic完事</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo ln -s /usr/lib/x86_64-linux-gnu/libtiff.so.6 /usr/lib/x86_64-linux-gnu/libtiff.so.5
+</code></pre></div></div>
+
+<p>参考WPS社区讨论：<a href="https://bbs.wps.cn/topic/7777" target="_blank">Linux环境下不能输出PDF</a></p>
+
+<h2 id="0x02-中文字体加粗显示异常">0x02 中文字体加粗显示异常</h2>
+
+<p>同样是WPS更不上组件库更新，解决办法是下载旧版libfreetype（应该也可以通过降低libfreetype版本解决，不过考虑到可能存在版本兼容依赖问题，且下载的文件是放在WPS自己的路径下，不会影响其他程序运行，笔者选择直接下载）</p>
+
+<p>下载地址： <code class="language-plaintext highlighter-rouge">https://packages.debian.org/bookworm/libfreetype6</code> 。如果是x86_64架构的Debian/Ubuntu系统，下载 <strong>libfreetype6_2.12.1+dfsg-5+deb12u3_amd64.deb</strong></p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ mkdir libfreetype6
+$ dpkg-deb -X libfreetype6_2.12.1+dfsg-5+deb12u3_amd64.deb libfreetype6
+$ sudo cp libfreetype6/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.3 /opt/kingsoft/wps-office/office6/
+$ sudo ln -s /opt/kingsoft/wps-office/office6/libfreetype.so.6.18.3 /opt/kingsoft/wps-office/office6/libfreetype.so.6
+</code></pre></div></div>
+
+<p>参考WPS社区讨论：<a href="https://bbs.wps.cn/topic/3137" target="_blank">WPS for Linux字体加粗问题</a></p>
+
+  </div><a class="u-url" href="/p/small-problems-of-wps-for-linux/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+				<p>Copyright &copy; 2024 wuhulamb</p>
+				<p>Powered by <a href="https://jekyllrb.com" target="_blank" rel="nofollow">Jekyll</a> | Theme is <a href="https://github.com/jekyll/minima/" target="_blank" rel="nofollow">Minima</a></p>
+      </div>
+      <div class="footer-col">
+        <p></p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

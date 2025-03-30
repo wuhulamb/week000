@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>使用selenium模拟浏览器登录校园网 | wuhulamb’s week000</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="使用selenium模拟浏览器登录校园网" />
+<meta name="author" content="wuhulamb" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="校园网采用无感知认证，登录一次后自动添加MAC地址，下次登录可以直接连接。而有一次校园网不是很稳定，服务器断网了，我从校园网的控制界面下线了服务器，然后又手动重启（ 关闭 &amp; 打开 服务器的电源），这时候发现服务器还是连不上校园网，打开无感知认证一看，之前保存的服务器MAC地址清除了。以往为了添加这个MAC地址，需要去实验室借用显示器，打开图形界面，从浏览器里登录校园网进行认证，总之非常麻烦。所以当时后悔莫及，真是手欠，为什么要点那个下线呢。" />
+<meta property="og:description" content="校园网采用无感知认证，登录一次后自动添加MAC地址，下次登录可以直接连接。而有一次校园网不是很稳定，服务器断网了，我从校园网的控制界面下线了服务器，然后又手动重启（ 关闭 &amp; 打开 服务器的电源），这时候发现服务器还是连不上校园网，打开无感知认证一看，之前保存的服务器MAC地址清除了。以往为了添加这个MAC地址，需要去实验室借用显示器，打开图形界面，从浏览器里登录校园网进行认证，总之非常麻烦。所以当时后悔莫及，真是手欠，为什么要点那个下线呢。" />
+<meta property="og:site_name" content="wuhulamb’s week000" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-01-09T10:49:00+08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="使用selenium模拟浏览器登录校园网" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"wuhulamb"},"dateModified":"2025-01-09T10:49:00+08:00","datePublished":"2025-01-09T10:49:00+08:00","description":"校园网采用无感知认证，登录一次后自动添加MAC地址，下次登录可以直接连接。而有一次校园网不是很稳定，服务器断网了，我从校园网的控制界面下线了服务器，然后又手动重启（ 关闭 &amp; 打开 服务器的电源），这时候发现服务器还是连不上校园网，打开无感知认证一看，之前保存的服务器MAC地址清除了。以往为了添加这个MAC地址，需要去实验室借用显示器，打开图形界面，从浏览器里登录校园网进行认证，总之非常麻烦。所以当时后悔莫及，真是手欠，为什么要点那个下线呢。","headline":"使用selenium模拟浏览器登录校园网","mainEntityOfPage":{"@type":"WebPage","@id":"/p/using-selenium-to-login-campus-network/"},"url":"/p/using-selenium-to-login-campus-network/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="wuhulamb&apos;s week000" />
+<link rel="icon" type="image/png" href="/media/favicon/favicon-48x48.png" sizes="48x48" />
+<link rel="icon" type="image/svg+xml" href="/media/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/media/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/media/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="/media/favicon/site.webmanifest" />
+
+<link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">wuhulamb&#39;s week000</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/week000/">Week000</a><a class="page-link" href="/category/">Category</a><a class="page-link" href="/links/">Links</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">使用selenium模拟浏览器登录校园网</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2025-01-09T10:49:00+08:00" itemprop="datePublished">
+        2025-01-09
+      </time>
+				| <span><a href="/category/computer/">计算机</a></span>
+				</p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>校园网采用无感知认证，登录一次后自动添加MAC地址，下次登录可以直接连接。而有一次校园网不是很稳定，服务器断网了，我从校园网的控制界面下线了服务器，然后又手动重启（ <strong><code class="language-plaintext highlighter-rouge">关闭 &amp; 打开</code></strong> 服务器的电源），这时候发现服务器还是连不上校园网，打开无感知认证一看，之前保存的服务器MAC地址清除了。以往为了添加这个MAC地址，需要去实验室借用显示器，打开图形界面，从浏览器里登录校园网进行认证，总之非常麻烦。所以当时后悔莫及，真是手欠，为什么要点那个下线呢。</p>
+
+<p>因为不想再跑实验室借显示器打开图形界面从浏览器登录校园网认证，所以考虑通过命令行终端登录校园网的办法。</p>
+
+<p>还因为自己对网络知之甚少，抓包、逆向难度过高，所以果断选择使用selenium模拟浏览器登录的方法。</p>
+
+<p>借助GPT，使用selenium并不困难，相关代码已存档<a href="https://github.com/wuhulamb/lzu_net_login" target="_blank">GitHub</a>，这里主要讲讲调试过程。</p>
+
+<p>最大的问题是，如果服务器连接的是手机的热点与电脑通信，那一旦连校园网，ssh隧道就会断开，而脚本运行失败，就意味着服务器失联，然后又得手动重启（ <strong><code class="language-plaintext highlighter-rouge">关闭 &amp; 打开</code></strong> 服务器的电源）。没错，所以最后是<strong>连着校园网进行调试</strong>的。既然已经能连上校园网了为什么还要再折腾呢？为了<del>那个脚本程序不白写</del>学习使用selenium。（虽然也不全是自己写的[手动狗头]）</p>
+
+<p>总之，我抱着一定要在服务器上成功运行的坚定意志开始了我的调试。</p>
+
+<h2 id="windows上先跑起来">Windows上先跑起来</h2>
+
+<p>这里虽然和调试无关，却非常关键，一代目脚本诞生在这里。</p>
+
+<h2 id="linux上设置开机执行自定义脚本">Linux上设置开机执行自定义脚本</h2>
+
+<p>为了图简单，我用的是crontab。</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 编辑crontab
+crontab -e
+</code></pre></div></div>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 写入开机要执行的命令
+@reboot bash /path/to/script.sh
+</code></pre></div></div>
+
+<p>删除全部定时任务的命令是：</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>crontab -r
+</code></pre></div></div>
+
+<h2 id="重启-x-n次">重启 x N次</h2>
+
+<figure>
+<img src="https://image.baidu.com/search/down?url=https://wx3.sinaimg.cn/large/008kbRJbly1hxenv9x8qrj31fj0sa4ih.jpg" alt="lzu_net_test.jpg" />
+<figcaption>测试 x N次</figcaption>
+</figure>
+
+<p>这是调试花费时间最多的环节。每次重启完，我都会紧张又期待地看着校园网控制台，希望看到一台新机器的连入，但希望总是落空。然后，就去控制台把服务器MAC地址添加进来，等待服务器自动连接。（没错，无感知认证可以手动添加MAC地址，而我却仍然坚定地想让服务器模拟浏览器自动登录）</p>
+
+<p>当然，每次重启完，我都会去看脚本运行的日志，将报错记录扔给GPT，我也逐渐感觉到问题的所在。selenium模拟浏览器运行是通过一个驱动程序打开浏览器完成的，加载网页的时候，网页响应的时间往往比程序运行的时间长。这意味着有时候网页还没有发过来，程序已经往后运行了，而后面的程序是和网页相关的，它找不到网页就会报错。还有就是，selenium打开浏览器初始化速度比较慢，需要等待一段时间。</p>
+
+<p>所以，最后解决办法就是在Python代码中加入 <code class="language-plaintext highlighter-rouge">time.sleep()</code></p>
+
+<p>（调试过程中，我还曾在script.sh脚本中加入过 <code class="language-plaintext highlighter-rouge">sleep 30</code> ，结果影响到后面的Python代码运行了，日志文件完全没变？！后来就把sleep放到Python代码里面，然后就很成功地登录上了）</p>
+
+<figure>
+<img src="https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/large/008kbRJbly1hxenv9wa9hj31hc0scdtr.jpg" alt="lzu_net_py.jpg" />
+<figcaption>开机后脚本成功运行！</figcaption>
+</figure>
+
+<h2 id="补充arm64的linux下载安装chromedriver">（补充）ARM64的Linux下载安装chromedriver</h2>
+
+<p>chromedriver需要和本地的chrome版本匹配，下面附上官方不同版本的chromedriver下载地址：</p>
+
+<ul>
+  <li>版本在114及以下：<a href="http://chromedriver.storage.googleapis.com/index.html" target="_blank">http://chromedriver.storage.googleapis.com/index.html</a></li>
+  <li>最新版：<a href="https://googlechromelabs.github.io/chrome-for-testing/" target="_blank">https://googlechromelabs.github.io/chrome-for-testing/</a></li>
+  <li>GitHub：<a href="https://github.com/GoogleChromeLabs/chrome-for-testing" target="_blank">https://github.com/GoogleChromeLabs/chrome-for-testing</a></li>
+</ul>
+
+<p>但是很快我发现没有ARM64的版本（Linux64是x86_64的Linux），然后在<a href="https://github.com/electron/electron/releases" target="_blank">electron</a>找到了编译好的ARM64的chromedriver。</p>
+
+<p>Linux可以先查看一下chrome的版本：</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>chromium-browser --version
+</code></pre></div></div>
+
+<p>然后在上述GitHub项目中寻找对应版本的chromedriver（没错，我就是一页一页往下翻看更新说明找到的！）</p>
+
+<h2 id="彩蛋哪里用到了x11-forwarding">（彩蛋）哪里用到了X11 Forwarding</h2>
+
+<p>前面的一篇<a href="/p/using-x11-forwarding-to-open-GUI-program-via-ssh/">介绍X11转发</a>的博客说到因为要使用浏览器登录认证身份联网，所以需要用到X11转发，解决ssh连接使用图形程序的问题。实际在没有登录上校园网时，ssh也连接不上，自然也用不到X11转发，但是在调试过程为了确认<strong>不是因为浏览器版本导致界面显示不同而报错</strong>确实用到了X11转发。</p>
+
+  </div><a class="u-url" href="/p/using-selenium-to-login-campus-network/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+				<p>Copyright &copy; 2024 wuhulamb</p>
+				<p>Powered by <a href="https://jekyllrb.com" target="_blank" rel="nofollow">Jekyll</a> | Theme is <a href="https://github.com/jekyll/minima/" target="_blank" rel="nofollow">Minima</a></p>
+      </div>
+      <div class="footer-col">
+        <p></p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

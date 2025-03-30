@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Azure云服务器IP被ban不能登录😢 | wuhulamb’s week000</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Azure云服务器IP被ban不能登录😢" />
+<meta name="author" content="wuhulamb" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="更正：已证实不能登陆是因为Azure云服务器性能太弱，跑一个Python程序占用太多资源导致ssh连接不稳定（不跑代码后就没有再出现过不能登陆的情况 …" />
+<meta property="og:description" content="更正：已证实不能登陆是因为Azure云服务器性能太弱，跑一个Python程序占用太多资源导致ssh连接不稳定（不跑代码后就没有再出现过不能登陆的情况 …" />
+<meta property="og:site_name" content="wuhulamb’s week000" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-12-19T10:51:00+08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Azure云服务器IP被ban不能登录😢" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"wuhulamb"},"dateModified":"2024-12-19T10:51:00+08:00","datePublished":"2024-12-19T10:51:00+08:00","description":"更正：已证实不能登陆是因为Azure云服务器性能太弱，跑一个Python程序占用太多资源导致ssh连接不稳定（不跑代码后就没有再出现过不能登陆的情况 …","headline":"Azure云服务器IP被ban不能登录😢","mainEntityOfPage":{"@type":"WebPage","@id":"/p/cant-login-azure-vm/"},"url":"/p/cant-login-azure-vm/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="wuhulamb&apos;s week000" />
+<link rel="icon" type="image/png" href="/media/favicon/favicon-48x48.png" sizes="48x48" />
+<link rel="icon" type="image/svg+xml" href="/media/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/media/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/media/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="/media/favicon/site.webmanifest" />
+
+<link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">wuhulamb&#39;s week000</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/week000/">Week000</a><a class="page-link" href="/category/">Category</a><a class="page-link" href="/links/">Links</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Azure云服务器IP被ban不能登录😢</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2024-12-19T10:51:00+08:00" itemprop="datePublished">
+        2024-12-19
+      </time>
+				| <span><a href="/category/computer/">计算机</a></span>
+				</p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <blockquote>
+  <p>更正：已证实不能登陆是因为Azure云服务器性能太弱，跑一个Python程序占用太多资源导致ssh连接不稳定（不跑代码后就没有再出现过不能登陆的情况 …</p>
+</blockquote>
+
+<p>十天前刚刚<a href="/p/hello-world/">向世界发出了“你好”的问候</a>，没想到昨天就和世界失联了，更糟的是连Azure服务器都登不上了。</p>
+
+<p>本来想查看一下服务器上跑的Python程序跑到哪里了，但是突然发现ssh登不上，立即想到登录<a href="https://portal.azure.com/" target="_blank">https://portal.azure.com/</a>查看，结果Edge浏览器登不上（也许是那天<a href="https://www.zhihu.com/question/426726552/answer/2317056446" target="_blank">禁用了Edge的自动更新</a>，它有点小意见？），好在Google Chrome可以登上。然后很顺利地使用 <code class="language-plaintext highlighter-rouge">Azure CLI</code> 的ssh成功登录（通过浏览器登录，以Azure账户创建了一个新的user），先看了一下Python跑完了没，发现没跑完，然后 <code class="language-plaintext highlighter-rouge">cd 用户目录</code> 没有权限，再往后就在想为什么没有权限的时候，连接断开了！（说明一开始是可以连接上的，没登录上是因为用户名打错了，但是后面又连不上了，是真的连不上了，是不是很神奇）</p>
+
+<p>后面再使用 <code class="language-plaintext highlighter-rouge">Azure CLI</code> 无法登录服务器，显示无法连接22端口，建议更换端口再尝试，实际上更换端口也不起作用（回头想我好像忘记设置新端口的network入站规则了😢）。然后检测连接性，过了很长时间显示超时无法连接。此时，我感觉这个IP大概率被ban了，得换一个IP。本来这件事并不麻烦，重启一下服务器就行，问题是我在服务器上跑了一个Python程序，这是我的毕业论文，大概三四天可以跑完，已经跑了两天了，现在重启前面就白跑了，虽然也不是我在跑，但还是觉得浪费了两天时间。后面就又去搜Azure服务器如何不重启换IP，跟着一步步做，结果全部失败。最后还是重启了服务器 …</p>
+
+<p>前面两大段弯弯绕绕，并非有意为难读者，而是昨天排查问题的实际过程。总结一下，就是因无法登录Azure服务器（或者登录连接不稳定），做了诸多尝试，最终发现是IP被ban了，解决办法是重启服务器更换IP，牺牲了跑了两天的Python程序。</p>
+
+<p>为了防止此类事件再次发生，昨晚新建了一个服务器专门运行ss-server程序，把原来的服务器关停了该服务。这样以后新服务器IP被ban可以放心重启，不会影响其他程序运行。</p>
+
+  </div><a class="u-url" href="/p/cant-login-azure-vm/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+				<p>Copyright &copy; 2024 wuhulamb</p>
+				<p>Powered by <a href="https://jekyllrb.com" target="_blank" rel="nofollow">Jekyll</a> | Theme is <a href="https://github.com/jekyll/minima/" target="_blank" rel="nofollow">Minima</a></p>
+      </div>
+      <div class="footer-col">
+        <p></p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

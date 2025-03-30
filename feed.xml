@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-03-30T22:15:57+08:00</updated><id>/feed.xml</id><title type="html">wuhulamb’s week000</title><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><entry><title type="html">week024</title><link href="/p/week024/" rel="alternate" type="text/html" title="week024" /><published>2025-03-23T23:59:00+08:00</published><updated>2025-03-23T23:59:00+08:00</updated><id>/p/week024</id><content type="html" xml:base="/p/week024/"><![CDATA[<h2 id="本周回顾20250317-20250323">本周回顾（2025.03.17-2025.03.23）</h2>
+
+<ol>
+  <li>毕业论文（4 结论与讨论（部分））</li>
+  <li>《Scaling and network evolution of technology transfer in US cities》论文阅读及复现</li>
+  <li>跑步训练（和WJY完成15公里挑战！）</li>
+  <li>管乐团排练</li>
+  <li>Computer Networking开始学习（wireshark安装、配置）</li>
+  <li>了解货币基金（支付宝的余额宝和微信的零钱通）</li>
+</ol>
+
+<h2 id="下周安排20250324-20250330">下周安排（2025.03.24-2025.03.30）</h2>
+
+<ol>
+  <li>毕业论文</li>
+  <li>网络分析学习（经济地理方面）</li>
+  <li>跑步训练</li>
+  <li>管乐团排练</li>
+  <li>Computer Networking</li>
+</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.03.17-2025.03.23）]]></summary></entry><entry><title type="html">week023</title><link href="/p/week023/" rel="alternate" type="text/html" title="week023" /><published>2025-03-16T22:01:00+08:00</published><updated>2025-03-16T22:01:00+08:00</updated><id>/p/week023</id><content type="html" xml:base="/p/week023/"><![CDATA[<h2 id="本周回顾20250310-20250316">本周回顾（2025.03.10-2025.03.16）</h2>
+
+<ol>
+  <li>毕业论文（1 理论基础<del>与研究综述</del>）</li>
+  <li>计量经济学导论（第十章时间序列数据的基本回归分析）</li>
+  <li>03.13管乐团城关演出</li>
+  <li>跑步训练</li>
+  <li>The Missing Semester（Command-line Environment &amp; Version Control(Git) &amp; exercises(Day 1 and 2)）</li>
+  <li>OverTheWire &amp; pwn.college</li>
+</ol>
+
+<h2 id="下周安排20250317-20250323">下周安排（2025.03.17-2025.03.23）</h2>
+
+<ol>
+  <li>毕业论文</li>
+  <li>计量经济学导论</li>
+  <li>跑步训练</li>
+  <li>管乐团排练</li>
+  <li>Computer Networking</li>
+</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.03.10-2025.03.16）]]></summary></entry><entry><title type="html">week022</title><link href="/p/week022/" rel="alternate" type="text/html" title="week022" /><published>2025-03-09T22:05:00+08:00</published><updated>2025-03-09T22:05:00+08:00</updated><id>/p/week022</id><content type="html" xml:base="/p/week022/"><![CDATA[<h2 id="本周回顾20250303-20250309">本周回顾（2025.03.03-2025.03.09）</h2>
+
+<ol>
+  <li>毕业论文（3 兰州市生活性服务业空间格局特征分析）</li>
+  <li>计量经济学导论（第四章多元回归检验分析）</li>
+  <li>跑步训练</li>
+  <li>管乐团排练</li>
+  <li><a href="/p/install-arcgis10.8.2-on-win10-vm/">安装win10虚拟机和ArcMap10.8.2</a></li>
+  <li>The Missing Semester（Data Wrangling）</li>
+</ol>
+
+<h2 id="下周安排20250310-20250316">下周安排（2025.03.10-2025.03.16）</h2>
+
+<ol>
+  <li>毕业论文</li>
+  <li>计量经济学导论</li>
+  <li>跑步训练</li>
+  <li>管乐团城关表演（03.13）</li>
+  <li>The Missing Semester</li>
+</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.03.03-2025.03.09）]]></summary></entry><entry><title type="html">win10虚拟机上安装ArcGIS10.8.2（找资源篇）</title><link href="/p/install-arcgis10.8.2-on-win10-vm/" rel="alternate" type="text/html" title="win10虚拟机上安装ArcGIS10.8.2（找资源篇）" /><published>2025-03-03T20:05:00+08:00</published><updated>2025-03-03T20:05:00+08:00</updated><id>/p/install-arcgis10.8.2-on-win10-vm</id><content type="html" xml:base="/p/install-arcgis10.8.2-on-win10-vm/"><![CDATA[<blockquote>
+  <p>前面<a href="/p/install-ubuntu-on-my-laptop-mistakenly/">将Ubuntu误装到笔记本硬盘</a>的影响还在继续…</p>
+</blockquote>
+
+<p>为了能够顺利毕业，笔者需要一款像ArcGIS那样的软件，Linux倒是有一个很接近ArcGIS的平替——QGIS。但是啊，最近开始做图的时候笔者发现，QGIS的栅格不支持Jenks自然断裂点分类，这还不是最关键的，最关键的是QGIS的配色和ArcGIS的完全不同，因此习惯了ArcGIS的老师一看到我做的图估计多少有些不适应（笔者也不是很适应），所以思前想后笔者还是决定安装windows虚拟机，再在虚拟机上安装ArcGIS。（ArcGIS只有windows版本）</p>
+
+<p>好消息是VMware Workstation免费了！坏消息是windows镜像及激活方式、ArcGIS软件及激活方式都得自己找（&gt;﹏&lt;）</p>
+
+<p>本文就简单记录一下笔者如何<del>快速</del>（两天）找到并成功安装这些资源的。</p>
+
+<p>首先，由于笔者喜欢看博客，自然会关注几个水平很高的大佬，然后某天又会不满足于博客（大佬<del>更新博客速度普遍较慢</del>不屑于更新博客），于是乎想看看大佬除了博客还在哪些平台比较活跃（没错那天笔者很闲！）按照这样的方法，笔者找到了<a href="https://ibug.io/" target="_blank">ibug</a>大佬的另一个<a href="https://wiki.ibugone.com" target="_blank">基地</a>。这是大佬的个人知识库，信息量很大，笔者一下来了兴趣，开始肆意搜刮。windows镜像就是在<a href="https://wiki.ibugone.com/software/microsoft/" target="_blank">这里</a>找到的。（大佬还是大佬，还很贴心地给出了激活方式 ｡^‿^｡ ）</p>
+
+<p>那么，只剩下ArcGIS了。考验笔者资源搜索的时候到了！</p>
+
+<p>笔者最初使用Google搜索 <code class="language-plaintext highlighter-rouge">arcgis crack download</code> 关键字得到的结果并不理想（有几个极具诱惑性的国外大学链接使笔者以为已经找到了，细看才知道需要学校账号密码）。后来笔者借鉴ibug大佬在windows镜像搜索的方法，使用Google搜索ArcGIS软件包的名称（例如 <code class="language-plaintext highlighter-rouge">ArcGIS_Desktop_1082_180378.exe</code> ），找到了<a href="https://geouitm.uitm.edu.my/sug/software/" target="_blank">ArcGIS的软件包下载地址</a>（没错下载地址还是大学网站，不过可以直接下载）。至于ArcGIS软件包的名字是怎么找到的，就是八仙过海，各显神通了。笔者最初是在YouTube的一个视频中找到的。</p>
+
+<p>最后就是激活方式。ArcGIS10.8.2（非Pro）和ArcGIS Pro的激活方式不同。相对而言，ArcGIS非Pro版激活方式更加成熟，也更容易找到，操作方式似乎也更简单（不需要额外再安装windows的.NET巴拉巴拉）。所以笔者选择ArcGIS10.8.2（似乎是ArcGIS非Pro的最后一个版本）。然后就还是在Google中搜索 <code class="language-plaintext highlighter-rouge">ArcGIS10.8 crack AfCore.dll</code> ，加上 <code class="language-plaintext highlighter-rouge">AfCore.dll</code> 是因为笔者在YouTube的视频中看到了破解过程就是将找来的 <code class="language-plaintext highlighter-rouge">AfCore.dll</code> 替换ArcGIS已安装的 <code class="language-plaintext highlighter-rouge">AfCore.dll</code> 。在一番寻找下笔者又找到了<a href="https://www.bilibili.com/opus/947508143883026435" target="_blank">B站的一个破解ArcGIS10.8.2的视频和文章</a>，最后通过关注公众号获得Crack的 <code class="language-plaintext highlighter-rouge">AfCore.dll</code> 文件。（当然也有ArcGIS的安装包，不过笔者之前已经找到了，就不管了）</p>
+
+<p>搜索能力就像解决问题的能力，并非一天就能锻炼出来，但也不必灰心，笔者以前也缺少这样的能力，在经过一次次难题的磨练下，就逐渐培养出来了。当下各种GPT迅速发展，节约了许多以前使用浏览器搜索再一个个点进去看的时间，利用好这些工具将使我们的学习效率、解决问题的能力有很大的提升，但同时要小心不要过度依赖这些工具，因为它们在简化过程的同时也屏蔽了过程。</p>
+
+<p>最后，附上搜索引擎排序：Google » Bing » <del>Baidu</del></p>
+
+<p>最后的最后，笔者安装的windows虚拟机版本为 <code class="language-plaintext highlighter-rouge">zh-cn_windows_10_enterprise_ltsc_2021_x64_dvd_033b7312.iso</code> （虽然ArcGIS非Pro版可以在win7上跑起来，虽然似乎win7对电脑性能要求更低，虽然有很多人喜欢win7，但是我的朋友，请忍住一时的冲动，相信我，还是安装win10吧）</p>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="计算机" /><summary type="html"><![CDATA[前面将Ubuntu误装到笔记本硬盘的影响还在继续…]]></summary></entry><entry><title type="html">week021</title><link href="/p/week021/" rel="alternate" type="text/html" title="week021" /><published>2025-03-02T17:15:00+08:00</published><updated>2025-03-02T17:15:00+08:00</updated><id>/p/week021</id><content type="html" xml:base="/p/week021/"><![CDATA[<h2 id="本周回顾20250224-20250302">本周回顾（2025.02.24-2025.03.02）</h2>
+
+<ol>
+  <li>跑步训练</li>
+  <li>管乐团排练</li>
+  <li>毕业论文（2.3研究方法）</li>
+  <li>计量经济学导论（第三章多元回归估计）</li>
+  <li>OverTheWire和The Missing Semester</li>
+</ol>
+
+<h2 id="下周安排20250303-20250309">下周安排（2025.03.03-2025.03.09）</h2>
+
+<ol>
+  <li>毕业论文</li>
+  <li>计量经济学导论</li>
+  <li>跑步训练</li>
+  <li>管乐团城关表演（03.06）</li>
+  <li>OverTheWire和The Missing Semester</li>
+</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.02.24-2025.03.02）]]></summary></entry><entry><title type="html">week020</title><link href="/p/week020/" rel="alternate" type="text/html" title="week020" /><published>2025-02-24T10:18:00+08:00</published><updated>2025-02-24T10:18:00+08:00</updated><id>/p/week020</id><content type="html" xml:base="/p/week020/"><![CDATA[<h2 id="本周回顾20250217-20250223">本周回顾（2025.02.17-2025.02.23）</h2>
+
+<ol>
+  <li>每天坚持跑步</li>
+  <li>毕业论文（0引言、1研究区概况与数据来源）</li>
+  <li>计量经济学导论（第二章）</li>
+  <li>发现<a href="https://overthewire.org/wargames/" target="_blank">OverTheWire</a>和<a href="https://www.wechall.net/" target="_blank">WeChall</a></li>
+</ol>
+
+<h2 id="下周安排20250224-20250302">下周安排（2025.02.24-2025.03.02）</h2>
+
+<ol>
+  <li>毕业论文</li>
+  <li>计量经济学导论（第三章）</li>
+  <li>每天跑步</li>
+  <li>pwn.college和OverTheWire</li>
+  <li>小号</li>
+</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.02.17-2025.02.23）]]></summary></entry><entry><title type="html">奔跑吧！我的青春！</title><link href="/p/learn-running/" rel="alternate" type="text/html" title="奔跑吧！我的青春！" /><published>2025-02-23T22:59:00+08:00</published><updated>2025-02-23T22:59:00+08:00</updated><id>/p/learn-running</id><content type="html" xml:base="/p/learn-running/"><![CDATA[<p>老丁是校田径队的老师，我跑步的时候常常看到他带着同学们训练。一次偶然的机会，我看到一个管乐团的同学也在一块训练。聊过后得知是老师看WJY跑得不错，让WJY跟着一块练练。于是我也想“跟着练练”。某天，我偷偷跟在队伍后面，被老丁看到问了一句，“我们这儿可不是在上课，是专业训练噢。”我还是悻悻地跟在后面，不近不远地跟着。热身结束，老丁看我还没走，就默许我一块练了。就这样，我开始跟着老丁系统<strong>学习跑步</strong>！</p>
+
+<p>对，没错！是学习跑步，一切从头开始。每天下午两点二十五，老丁会准时骑辆自行车到西操田径队的小屋门口等同学们来。我的宿舍离西操近，所以每天来得都早一点。等时间到了两点半，老丁就会说一句，“好，到时间了，我们不等了”，然后就绕着操场快走，边走边说，“我们的身体刚从室内转向室外，需要一段适应的时间。你们从宿舍到操场差不多十分钟，到了操场走一走聊聊天又是十分钟，再热一热身又来一个十分钟。这一共三十分钟，我们的身体就慢慢适应了。”等走了一会儿，老丁就带着我们拉伸身体，“同学们把手指交叉往上举，想象一下把天都顶起来”；活动脚踝，“把脚尖顶起来走，一二三四五六七八，二二三四五六七八…”，“好，现在用脚后跟撑地走…”；活动双臂，“伸开五指，双臂垂直打开，上，下，上，下，一二三四五六七八…”老丁可以一边训练，一边大声说动作要领，一点不累。</p>
+
+<p>（宿舍要停电熄灯了，草草收个尾）</p>
+
+<p>老丁是我遇到过的很不同的老师，会和同学们一起训练，每天都像个小孩一样开心，喜欢自己从事的行业。还有一位研究古希腊神话的老师（焉知）也是如此。希望我也能像他们那样热爱自己从事的行业，永远保持童心，仰望天空，也脚踏实地。</p>
+
+<p>奔跑吧！我的青春！</p>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="日记" /><summary type="html"><![CDATA[老丁是校田径队的老师，我跑步的时候常常看到他带着同学们训练。一次偶然的机会，我看到一个管乐团的同学也在一块训练。聊过后得知是老师看WJY跑得不错，让WJY跟着一块练练。于是我也想“跟着练练”。某天，我偷偷跟在队伍后面，被老丁看到问了一句，“我们这儿可不是在上课，是专业训练噢。”我还是悻悻地跟在后面，不近不远地跟着。热身结束，老丁看我还没走，就默许我一块练了。就这样，我开始跟着老丁系统学习跑步！]]></summary></entry><entry><title type="html">week019</title><link href="/p/week019/" rel="alternate" type="text/html" title="week019" /><published>2025-02-16T21:03:00+08:00</published><updated>2025-02-16T21:03:00+08:00</updated><id>/p/week019</id><content type="html" xml:base="/p/week019/"><![CDATA[<h2 id="本周回顾20250210-20250216">本周回顾（2025.02.10-2025.02.16）</h2>
+
+<ol>
+  <li>做wooldridge的经济学导论第一章习题（熟悉R语言）</li>
+  <li>返校</li>
+  <li>开始写毕业论文</li>
+  <li>pwn.college（x86汇编write and read）</li>
+</ol>
+
+<h2 id="下周安排20250217-20250223">下周安排（2025.02.17-2025.02.23）</h2>
+
+<ol>
+  <li>毕业论文</li>
+  <li>wooldridge的经济学导论第二章</li>
+  <li>pwn.college</li>
+  <li>每天跑步</li>
+</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.02.10-2025.02.16）]]></summary></entry><entry><title type="html">week018</title><link href="/p/week018/" rel="alternate" type="text/html" title="week018" /><published>2025-02-09T22:39:00+08:00</published><updated>2025-02-09T22:39:00+08:00</updated><id>/p/week018</id><content type="html" xml:base="/p/week018/"><![CDATA[<h2 id="本周回顾20250203-20250209">本周回顾（2025.02.03-2025.02.09）</h2>
+
+<ol>
+  <li><a href="https://pwn.college/dojos" target="_blank">pwn.college</a>完成 <strong>Getting Started</strong> 和 <strong>Linux Luminarium</strong> 部分</li>
+  <li>学习R语言（安装了wooldridge的经济学导论R数据包）</li>
+  <li>整理过年拍的照片</li>
+  <li>给电脑换上两条8G内存条（小飞哥哥从上海寄来的！）</li>
+</ol>
+
+<h2 id="下周安排20250210-20250216">下周安排（2025.02.10-2025.02.16）</h2>
+
+<ol>
+  <li>pwn.college</li>
+  <li>做wooldridge的经济学导论习题</li>
+  <li>毕业论文</li>
+  <li>返校</li>
+  <li>可达性计算回顾</li>
+</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.02.03-2025.02.09）]]></summary></entry><entry><title type="html">Linux版WPS修补指南</title><link href="/p/small-problems-of-wps-for-linux/" rel="alternate" type="text/html" title="Linux版WPS修补指南" /><published>2025-02-07T15:33:00+08:00</published><updated>2025-02-07T15:33:00+08:00</updated><id>/p/small-problems-of-wps-for-linux</id><content type="html" xml:base="/p/small-problems-of-wps-for-linux/"><![CDATA[<p>自从<a href="/p/install-ubuntu-on-my-laptop-mistakenly/">误把Ubuntu装进电脑硬盘</a>后，笔者开始了神奇的Linux之旅。接着不可避免要寻找office办公三件套的替代软件，笔者最先安装了LibreOffice，打开.docx文档和Word布局不一致，于是又寻找其他替代软件，然后就找到了WPS for Linux。使用WPS打开.docx文件和Word布局一致，且速度很快（比LibreOffice快一点），而且免费无广告！（使用Windows版WPS的家人们，V我50解锁全部功能免广告🤑）</p>
+
+<p>虽然Linux版WPS是Office的最佳平替，但是也会存在一些小问题。本文将列出笔者使用过程中遇到的问题，并给出解决方案（笔者的电脑是x86_64架构，系统为Ubuntu 24.04）</p>
+
+<h2 id="0x00-缺少字体">0x00 缺少字体</h2>
+
+<p>因为存在字体版权问题，所以WPS for Linux并没有附带字体文件，而Ubuntu自带的字体都是用惯了Windows的B从未听说过的开源字体。当B打开老师同学发给ta的文件时，自然会出现显示异常的情况</p>
+
+<p>解决办法详见 👉 <a href="/p/first-day-of-using-ubuntu/">使用Ubuntu的第一天是装…字体？</a></p>
+
+<h2 id="0x01-导出pdf失败">0x01 导出PDF失败</h2>
+
+<p>WPS更新缓慢，PDF导出功能使用的是libtiff.so.5库（Ubuntu 24.04安装的是libtiff.so.6），因为libtiff.so.6向下兼容，所以直接加一个symbolic完事</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo ln -s /usr/lib/x86_64-linux-gnu/libtiff.so.6 /usr/lib/x86_64-linux-gnu/libtiff.so.5
+</code></pre></div></div>
+
+<p>参考WPS社区讨论：<a href="https://bbs.wps.cn/topic/7777" target="_blank">Linux环境下不能输出PDF</a></p>
+
+<h2 id="0x02-中文字体加粗显示异常">0x02 中文字体加粗显示异常</h2>
+
+<p>同样是WPS更不上组件库更新，解决办法是下载旧版libfreetype（应该也可以通过降低libfreetype版本解决，不过考虑到可能存在版本兼容依赖问题，且下载的文件是放在WPS自己的路径下，不会影响其他程序运行，笔者选择直接下载）</p>
+
+<p>下载地址： <code class="language-plaintext highlighter-rouge">https://packages.debian.org/bookworm/libfreetype6</code> 。如果是x86_64架构的Debian/Ubuntu系统，下载 <strong>libfreetype6_2.12.1+dfsg-5+deb12u3_amd64.deb</strong></p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ mkdir libfreetype6
+$ dpkg-deb -X libfreetype6_2.12.1+dfsg-5+deb12u3_amd64.deb libfreetype6
+$ sudo cp libfreetype6/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.3 /opt/kingsoft/wps-office/office6/
+$ sudo ln -s /opt/kingsoft/wps-office/office6/libfreetype.so.6.18.3 /opt/kingsoft/wps-office/office6/libfreetype.so.6
+</code></pre></div></div>
+
+<p>参考WPS社区讨论：<a href="https://bbs.wps.cn/topic/3137" target="_blank">WPS for Linux字体加粗问题</a></p>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="计算机" /><category term="Ubuntu折腾小记" /><summary type="html"><![CDATA[自从误把Ubuntu装进电脑硬盘后，笔者开始了神奇的Linux之旅。接着不可避免要寻找office办公三件套的替代软件，笔者最先安装了LibreOffice，打开.docx文档和Word布局不一致，于是又寻找其他替代软件，然后就找到了WPS for Linux。使用WPS打开.docx文件和Word布局一致，且速度很快（比LibreOffice快一点），而且免费无广告！（使用Windows版WPS的家人们，V我50解锁全部功能免广告🤑）]]></summary></entry></feed>
