@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-03-30T22:15:57+08:00</updated><id>/feed.xml</id><title type="html">wuhulamb’s week000</title><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><entry><title type="html">week024</title><link href="/p/week024/" rel="alternate" type="text/html" title="week024" /><published>2025-03-23T23:59:00+08:00</published><updated>2025-03-23T23:59:00+08:00</updated><id>/p/week024</id><content type="html" xml:base="/p/week024/"><![CDATA[<h2 id="本周回顾20250317-20250323">本周回顾（2025.03.17-2025.03.23）</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/week000/feed.xml" rel="self" type="application/atom+xml" /><link href="/week000/" rel="alternate" type="text/html" /><updated>2025-03-30T23:29:57+08:00</updated><id>/week000/feed.xml</id><title type="html">wuhulamb’s week000</title><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><entry><title type="html">week024</title><link href="/week000/p/week024/" rel="alternate" type="text/html" title="week024" /><published>2025-03-23T23:59:00+08:00</published><updated>2025-03-23T23:59:00+08:00</updated><id>/week000/p/week024</id><content type="html" xml:base="/week000/p/week024/"><![CDATA[<h2 id="本周回顾20250317-20250323">本周回顾（2025.03.17-2025.03.23）</h2>
 
 <ol>
   <li>毕业论文（4 结论与讨论（部分））</li>
@@ -17,7 +17,7 @@
   <li>跑步训练</li>
   <li>管乐团排练</li>
   <li>Computer Networking</li>
-</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.03.17-2025.03.23）]]></summary></entry><entry><title type="html">week023</title><link href="/p/week023/" rel="alternate" type="text/html" title="week023" /><published>2025-03-16T22:01:00+08:00</published><updated>2025-03-16T22:01:00+08:00</updated><id>/p/week023</id><content type="html" xml:base="/p/week023/"><![CDATA[<h2 id="本周回顾20250310-20250316">本周回顾（2025.03.10-2025.03.16）</h2>
+</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.03.17-2025.03.23）]]></summary></entry><entry><title type="html">week023</title><link href="/week000/p/week023/" rel="alternate" type="text/html" title="week023" /><published>2025-03-16T22:01:00+08:00</published><updated>2025-03-16T22:01:00+08:00</updated><id>/week000/p/week023</id><content type="html" xml:base="/week000/p/week023/"><![CDATA[<h2 id="本周回顾20250310-20250316">本周回顾（2025.03.10-2025.03.16）</h2>
 
 <ol>
   <li>毕业论文（1 理论基础<del>与研究综述</del>）</li>
@@ -36,14 +36,14 @@
   <li>跑步训练</li>
   <li>管乐团排练</li>
   <li>Computer Networking</li>
-</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.03.10-2025.03.16）]]></summary></entry><entry><title type="html">week022</title><link href="/p/week022/" rel="alternate" type="text/html" title="week022" /><published>2025-03-09T22:05:00+08:00</published><updated>2025-03-09T22:05:00+08:00</updated><id>/p/week022</id><content type="html" xml:base="/p/week022/"><![CDATA[<h2 id="本周回顾20250303-20250309">本周回顾（2025.03.03-2025.03.09）</h2>
+</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.03.10-2025.03.16）]]></summary></entry><entry><title type="html">week022</title><link href="/week000/p/week022/" rel="alternate" type="text/html" title="week022" /><published>2025-03-09T22:05:00+08:00</published><updated>2025-03-09T22:05:00+08:00</updated><id>/week000/p/week022</id><content type="html" xml:base="/week000/p/week022/"><![CDATA[<h2 id="本周回顾20250303-20250309">本周回顾（2025.03.03-2025.03.09）</h2>
 
 <ol>
   <li>毕业论文（3 兰州市生活性服务业空间格局特征分析）</li>
   <li>计量经济学导论（第四章多元回归检验分析）</li>
   <li>跑步训练</li>
   <li>管乐团排练</li>
-  <li><a href="/p/install-arcgis10.8.2-on-win10-vm/">安装win10虚拟机和ArcMap10.8.2</a></li>
+  <li><a href="/week000/p/install-arcgis10.8.2-on-win10-vm/">安装win10虚拟机和ArcMap10.8.2</a></li>
   <li>The Missing Semester（Data Wrangling）</li>
 </ol>
 
@@ -55,8 +55,8 @@
   <li>跑步训练</li>
   <li>管乐团城关表演（03.13）</li>
   <li>The Missing Semester</li>
-</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.03.03-2025.03.09）]]></summary></entry><entry><title type="html">win10虚拟机上安装ArcGIS10.8.2（找资源篇）</title><link href="/p/install-arcgis10.8.2-on-win10-vm/" rel="alternate" type="text/html" title="win10虚拟机上安装ArcGIS10.8.2（找资源篇）" /><published>2025-03-03T20:05:00+08:00</published><updated>2025-03-03T20:05:00+08:00</updated><id>/p/install-arcgis10.8.2-on-win10-vm</id><content type="html" xml:base="/p/install-arcgis10.8.2-on-win10-vm/"><![CDATA[<blockquote>
-  <p>前面<a href="/p/install-ubuntu-on-my-laptop-mistakenly/">将Ubuntu误装到笔记本硬盘</a>的影响还在继续…</p>
+</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.03.03-2025.03.09）]]></summary></entry><entry><title type="html">win10虚拟机上安装ArcGIS10.8.2（找资源篇）</title><link href="/week000/p/install-arcgis10.8.2-on-win10-vm/" rel="alternate" type="text/html" title="win10虚拟机上安装ArcGIS10.8.2（找资源篇）" /><published>2025-03-03T20:05:00+08:00</published><updated>2025-03-03T20:05:00+08:00</updated><id>/week000/p/install-arcgis10.8.2-on-win10-vm</id><content type="html" xml:base="/week000/p/install-arcgis10.8.2-on-win10-vm/"><![CDATA[<blockquote>
+  <p>前面<a href="/week000/p/install-ubuntu-on-my-laptop-mistakenly/">将Ubuntu误装到笔记本硬盘</a>的影响还在继续…</p>
 </blockquote>
 
 <p>为了能够顺利毕业，笔者需要一款像ArcGIS那样的软件，Linux倒是有一个很接近ArcGIS的平替——QGIS。但是啊，最近开始做图的时候笔者发现，QGIS的栅格不支持Jenks自然断裂点分类，这还不是最关键的，最关键的是QGIS的配色和ArcGIS的完全不同，因此习惯了ArcGIS的老师一看到我做的图估计多少有些不适应（笔者也不是很适应），所以思前想后笔者还是决定安装windows虚拟机，再在虚拟机上安装ArcGIS。（ArcGIS只有windows版本）</p>
@@ -77,7 +77,7 @@
 
 <p>最后，附上搜索引擎排序：Google » Bing » <del>Baidu</del></p>
 
-<p>最后的最后，笔者安装的windows虚拟机版本为 <code class="language-plaintext highlighter-rouge">zh-cn_windows_10_enterprise_ltsc_2021_x64_dvd_033b7312.iso</code> （虽然ArcGIS非Pro版可以在win7上跑起来，虽然似乎win7对电脑性能要求更低，虽然有很多人喜欢win7，但是我的朋友，请忍住一时的冲动，相信我，还是安装win10吧）</p>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="计算机" /><summary type="html"><![CDATA[前面将Ubuntu误装到笔记本硬盘的影响还在继续…]]></summary></entry><entry><title type="html">week021</title><link href="/p/week021/" rel="alternate" type="text/html" title="week021" /><published>2025-03-02T17:15:00+08:00</published><updated>2025-03-02T17:15:00+08:00</updated><id>/p/week021</id><content type="html" xml:base="/p/week021/"><![CDATA[<h2 id="本周回顾20250224-20250302">本周回顾（2025.02.24-2025.03.02）</h2>
+<p>最后的最后，笔者安装的windows虚拟机版本为 <code class="language-plaintext highlighter-rouge">zh-cn_windows_10_enterprise_ltsc_2021_x64_dvd_033b7312.iso</code> （虽然ArcGIS非Pro版可以在win7上跑起来，虽然似乎win7对电脑性能要求更低，虽然有很多人喜欢win7，但是我的朋友，请忍住一时的冲动，相信我，还是安装win10吧）</p>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="计算机" /><summary type="html"><![CDATA[前面将Ubuntu误装到笔记本硬盘的影响还在继续…]]></summary></entry><entry><title type="html">week021</title><link href="/week000/p/week021/" rel="alternate" type="text/html" title="week021" /><published>2025-03-02T17:15:00+08:00</published><updated>2025-03-02T17:15:00+08:00</updated><id>/week000/p/week021</id><content type="html" xml:base="/week000/p/week021/"><![CDATA[<h2 id="本周回顾20250224-20250302">本周回顾（2025.02.24-2025.03.02）</h2>
 
 <ol>
   <li>跑步训练</li>
@@ -95,7 +95,7 @@
   <li>跑步训练</li>
   <li>管乐团城关表演（03.06）</li>
   <li>OverTheWire和The Missing Semester</li>
-</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.02.24-2025.03.02）]]></summary></entry><entry><title type="html">week020</title><link href="/p/week020/" rel="alternate" type="text/html" title="week020" /><published>2025-02-24T10:18:00+08:00</published><updated>2025-02-24T10:18:00+08:00</updated><id>/p/week020</id><content type="html" xml:base="/p/week020/"><![CDATA[<h2 id="本周回顾20250217-20250223">本周回顾（2025.02.17-2025.02.23）</h2>
+</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.02.24-2025.03.02）]]></summary></entry><entry><title type="html">week020</title><link href="/week000/p/week020/" rel="alternate" type="text/html" title="week020" /><published>2025-02-24T10:18:00+08:00</published><updated>2025-02-24T10:18:00+08:00</updated><id>/week000/p/week020</id><content type="html" xml:base="/week000/p/week020/"><![CDATA[<h2 id="本周回顾20250217-20250223">本周回顾（2025.02.17-2025.02.23）</h2>
 
 <ol>
   <li>每天坚持跑步</li>
@@ -112,7 +112,7 @@
   <li>每天跑步</li>
   <li>pwn.college和OverTheWire</li>
   <li>小号</li>
-</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.02.17-2025.02.23）]]></summary></entry><entry><title type="html">奔跑吧！我的青春！</title><link href="/p/learn-running/" rel="alternate" type="text/html" title="奔跑吧！我的青春！" /><published>2025-02-23T22:59:00+08:00</published><updated>2025-02-23T22:59:00+08:00</updated><id>/p/learn-running</id><content type="html" xml:base="/p/learn-running/"><![CDATA[<p>老丁是校田径队的老师，我跑步的时候常常看到他带着同学们训练。一次偶然的机会，我看到一个管乐团的同学也在一块训练。聊过后得知是老师看WJY跑得不错，让WJY跟着一块练练。于是我也想“跟着练练”。某天，我偷偷跟在队伍后面，被老丁看到问了一句，“我们这儿可不是在上课，是专业训练噢。”我还是悻悻地跟在后面，不近不远地跟着。热身结束，老丁看我还没走，就默许我一块练了。就这样，我开始跟着老丁系统<strong>学习跑步</strong>！</p>
+</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.02.17-2025.02.23）]]></summary></entry><entry><title type="html">奔跑吧！我的青春！</title><link href="/week000/p/learn-running/" rel="alternate" type="text/html" title="奔跑吧！我的青春！" /><published>2025-02-23T22:59:00+08:00</published><updated>2025-02-23T22:59:00+08:00</updated><id>/week000/p/learn-running</id><content type="html" xml:base="/week000/p/learn-running/"><![CDATA[<p>老丁是校田径队的老师，我跑步的时候常常看到他带着同学们训练。一次偶然的机会，我看到一个管乐团的同学也在一块训练。聊过后得知是老师看WJY跑得不错，让WJY跟着一块练练。于是我也想“跟着练练”。某天，我偷偷跟在队伍后面，被老丁看到问了一句，“我们这儿可不是在上课，是专业训练噢。”我还是悻悻地跟在后面，不近不远地跟着。热身结束，老丁看我还没走，就默许我一块练了。就这样，我开始跟着老丁系统<strong>学习跑步</strong>！</p>
 
 <p>对，没错！是学习跑步，一切从头开始。每天下午两点二十五，老丁会准时骑辆自行车到西操田径队的小屋门口等同学们来。我的宿舍离西操近，所以每天来得都早一点。等时间到了两点半，老丁就会说一句，“好，到时间了，我们不等了”，然后就绕着操场快走，边走边说，“我们的身体刚从室内转向室外，需要一段适应的时间。你们从宿舍到操场差不多十分钟，到了操场走一走聊聊天又是十分钟，再热一热身又来一个十分钟。这一共三十分钟，我们的身体就慢慢适应了。”等走了一会儿，老丁就带着我们拉伸身体，“同学们把手指交叉往上举，想象一下把天都顶起来”；活动脚踝，“把脚尖顶起来走，一二三四五六七八，二二三四五六七八…”，“好，现在用脚后跟撑地走…”；活动双臂，“伸开五指，双臂垂直打开，上，下，上，下，一二三四五六七八…”老丁可以一边训练，一边大声说动作要领，一点不累。</p>
 
@@ -120,7 +120,7 @@
 
 <p>老丁是我遇到过的很不同的老师，会和同学们一起训练，每天都像个小孩一样开心，喜欢自己从事的行业。还有一位研究古希腊神话的老师（焉知）也是如此。希望我也能像他们那样热爱自己从事的行业，永远保持童心，仰望天空，也脚踏实地。</p>
 
-<p>奔跑吧！我的青春！</p>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="日记" /><summary type="html"><![CDATA[老丁是校田径队的老师，我跑步的时候常常看到他带着同学们训练。一次偶然的机会，我看到一个管乐团的同学也在一块训练。聊过后得知是老师看WJY跑得不错，让WJY跟着一块练练。于是我也想“跟着练练”。某天，我偷偷跟在队伍后面，被老丁看到问了一句，“我们这儿可不是在上课，是专业训练噢。”我还是悻悻地跟在后面，不近不远地跟着。热身结束，老丁看我还没走，就默许我一块练了。就这样，我开始跟着老丁系统学习跑步！]]></summary></entry><entry><title type="html">week019</title><link href="/p/week019/" rel="alternate" type="text/html" title="week019" /><published>2025-02-16T21:03:00+08:00</published><updated>2025-02-16T21:03:00+08:00</updated><id>/p/week019</id><content type="html" xml:base="/p/week019/"><![CDATA[<h2 id="本周回顾20250210-20250216">本周回顾（2025.02.10-2025.02.16）</h2>
+<p>奔跑吧！我的青春！</p>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="日记" /><summary type="html"><![CDATA[老丁是校田径队的老师，我跑步的时候常常看到他带着同学们训练。一次偶然的机会，我看到一个管乐团的同学也在一块训练。聊过后得知是老师看WJY跑得不错，让WJY跟着一块练练。于是我也想“跟着练练”。某天，我偷偷跟在队伍后面，被老丁看到问了一句，“我们这儿可不是在上课，是专业训练噢。”我还是悻悻地跟在后面，不近不远地跟着。热身结束，老丁看我还没走，就默许我一块练了。就这样，我开始跟着老丁系统学习跑步！]]></summary></entry><entry><title type="html">week019</title><link href="/week000/p/week019/" rel="alternate" type="text/html" title="week019" /><published>2025-02-16T21:03:00+08:00</published><updated>2025-02-16T21:03:00+08:00</updated><id>/week000/p/week019</id><content type="html" xml:base="/week000/p/week019/"><![CDATA[<h2 id="本周回顾20250210-20250216">本周回顾（2025.02.10-2025.02.16）</h2>
 
 <ol>
   <li>做wooldridge的经济学导论第一章习题（熟悉R语言）</li>
@@ -136,7 +136,7 @@
   <li>wooldridge的经济学导论第二章</li>
   <li>pwn.college</li>
   <li>每天跑步</li>
-</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.02.10-2025.02.16）]]></summary></entry><entry><title type="html">week018</title><link href="/p/week018/" rel="alternate" type="text/html" title="week018" /><published>2025-02-09T22:39:00+08:00</published><updated>2025-02-09T22:39:00+08:00</updated><id>/p/week018</id><content type="html" xml:base="/p/week018/"><![CDATA[<h2 id="本周回顾20250203-20250209">本周回顾（2025.02.03-2025.02.09）</h2>
+</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.02.10-2025.02.16）]]></summary></entry><entry><title type="html">week018</title><link href="/week000/p/week018/" rel="alternate" type="text/html" title="week018" /><published>2025-02-09T22:39:00+08:00</published><updated>2025-02-09T22:39:00+08:00</updated><id>/week000/p/week018</id><content type="html" xml:base="/week000/p/week018/"><![CDATA[<h2 id="本周回顾20250203-20250209">本周回顾（2025.02.03-2025.02.09）</h2>
 
 <ol>
   <li><a href="https://pwn.college/dojos" target="_blank">pwn.college</a>完成 <strong>Getting Started</strong> 和 <strong>Linux Luminarium</strong> 部分</li>
@@ -153,7 +153,7 @@
   <li>毕业论文</li>
   <li>返校</li>
   <li>可达性计算回顾</li>
-</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.02.03-2025.02.09）]]></summary></entry><entry><title type="html">Linux版WPS修补指南</title><link href="/p/small-problems-of-wps-for-linux/" rel="alternate" type="text/html" title="Linux版WPS修补指南" /><published>2025-02-07T15:33:00+08:00</published><updated>2025-02-07T15:33:00+08:00</updated><id>/p/small-problems-of-wps-for-linux</id><content type="html" xml:base="/p/small-problems-of-wps-for-linux/"><![CDATA[<p>自从<a href="/p/install-ubuntu-on-my-laptop-mistakenly/">误把Ubuntu装进电脑硬盘</a>后，笔者开始了神奇的Linux之旅。接着不可避免要寻找office办公三件套的替代软件，笔者最先安装了LibreOffice，打开.docx文档和Word布局不一致，于是又寻找其他替代软件，然后就找到了WPS for Linux。使用WPS打开.docx文件和Word布局一致，且速度很快（比LibreOffice快一点），而且免费无广告！（使用Windows版WPS的家人们，V我50解锁全部功能免广告🤑）</p>
+</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.02.03-2025.02.09）]]></summary></entry><entry><title type="html">Linux版WPS修补指南</title><link href="/week000/p/small-problems-of-wps-for-linux/" rel="alternate" type="text/html" title="Linux版WPS修补指南" /><published>2025-02-07T15:33:00+08:00</published><updated>2025-02-07T15:33:00+08:00</updated><id>/week000/p/small-problems-of-wps-for-linux</id><content type="html" xml:base="/week000/p/small-problems-of-wps-for-linux/"><![CDATA[<p>自从<a href="/week000/p/install-ubuntu-on-my-laptop-mistakenly/">误把Ubuntu装进电脑硬盘</a>后，笔者开始了神奇的Linux之旅。接着不可避免要寻找office办公三件套的替代软件，笔者最先安装了LibreOffice，打开.docx文档和Word布局不一致，于是又寻找其他替代软件，然后就找到了WPS for Linux。使用WPS打开.docx文件和Word布局一致，且速度很快（比LibreOffice快一点），而且免费无广告！（使用Windows版WPS的家人们，V我50解锁全部功能免广告🤑）</p>
 
 <p>虽然Linux版WPS是Office的最佳平替，但是也会存在一些小问题。本文将列出笔者使用过程中遇到的问题，并给出解决方案（笔者的电脑是x86_64架构，系统为Ubuntu 24.04）</p>
 
@@ -161,7 +161,7 @@
 
 <p>因为存在字体版权问题，所以WPS for Linux并没有附带字体文件，而Ubuntu自带的字体都是用惯了Windows的B从未听说过的开源字体。当B打开老师同学发给ta的文件时，自然会出现显示异常的情况</p>
 
-<p>解决办法详见 👉 <a href="/p/first-day-of-using-ubuntu/">使用Ubuntu的第一天是装…字体？</a></p>
+<p>解决办法详见 👉 <a href="/week000/p/first-day-of-using-ubuntu/">使用Ubuntu的第一天是装…字体？</a></p>
 
 <h2 id="0x01-导出pdf失败">0x01 导出PDF失败</h2>
 
