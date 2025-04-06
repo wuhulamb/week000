@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/week000/feed.xml" rel="self" type="application/atom+xml" /><link href="/week000/" rel="alternate" type="text/html" /><updated>2025-04-02T10:47:04+08:00</updated><id>/week000/feed.xml</id><title type="html">wuhulamb’s week000</title><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><entry><title type="html">落进去的地方，就是开端</title><link href="/week000/p/where-fall-when-start/" rel="alternate" type="text/html" title="落进去的地方，就是开端" /><published>2025-04-02T10:18:00+08:00</published><updated>2025-04-02T10:18:00+08:00</updated><id>/week000/p/where-fall-when-start</id><content type="html" xml:base="/week000/p/where-fall-when-start/"><![CDATA[<figure>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/week000/feed.xml" rel="self" type="application/atom+xml" /><link href="/week000/" rel="alternate" type="text/html" /><updated>2025-04-06T23:54:32+08:00</updated><id>/week000/feed.xml</id><title type="html">wuhulamb’s week000</title><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><entry><title type="html">week026</title><link href="/week000/p/week026/" rel="alternate" type="text/html" title="week026" /><published>2025-04-06T20:50:00+08:00</published><updated>2025-04-06T20:50:00+08:00</updated><id>/week000/p/week026</id><content type="html" xml:base="/week000/p/week026/"><![CDATA[<h2 id="本周回顾20250331-20250406">本周回顾（2025.03.31-2025.04.06）</h2>
+
+<ol>
+  <li>毕业论文（1.2 研究综述）</li>
+  <li>DeepSeek API使用</li>
+  <li><a href="http://wiki.wuhulamb.me/" target="_blank">wuhulamb’s wiki</a></li>
+  <li>跑步训练</li>
+  <li>管乐团排练</li>
+  <li>04.04城关踏青</li>
+  <li><em>Computer Networking: a Top Down Approach</em> Lab (Getting Started)</li>
+</ol>
+
+<h2 id="下周安排20250407-20250413">下周安排（2025.04.07-2025.04.13）</h2>
+
+<ol>
+  <li>毕业论文</li>
+  <li>Computer Networking</li>
+  <li>wuhulamb’s wiki</li>
+  <li>跑步训练</li>
+  <li>管乐团排练</li>
+</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.03.31-2025.04.06）]]></summary></entry><entry><title type="html">落进去的地方，就是开端</title><link href="/week000/p/where-fall-when-start/" rel="alternate" type="text/html" title="落进去的地方，就是开端" /><published>2025-04-02T10:18:00+08:00</published><updated>2025-04-02T10:18:00+08:00</updated><id>/week000/p/where-fall-when-start</id><content type="html" xml:base="/week000/p/where-fall-when-start/"><![CDATA[<figure>
 <img src="https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/large/008kbRJbly1i029gtlrh8j31hc0u0jzb.jpg" alt="love-and-sand.jpg" />
 </figure>
 
@@ -158,20 +178,4 @@
 
 <p>老丁是我遇到过的很不同的老师，会和同学们一起训练，每天都像个小孩一样开心，喜欢自己从事的行业。还有一位研究古希腊神话的老师（焉知）也是如此。希望我也能像他们那样热爱自己从事的行业，永远保持童心，仰望天空，也脚踏实地。</p>
 
-<p>奔跑吧！我的青春！</p>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="日记" /><summary type="html"><![CDATA[老丁是校田径队的老师，我跑步的时候常常看到他带着同学们训练。一次偶然的机会，我看到一个管乐团的同学也在一块训练。聊过后得知是老师看WJY跑得不错，让WJY跟着一块练练。于是我也想“跟着练练”。某天，我偷偷跟在队伍后面，被老丁看到问了一句，“我们这儿可不是在上课，是专业训练噢。”我还是悻悻地跟在后面，不近不远地跟着。热身结束，老丁看我还没走，就默许我一块练了。就这样，我开始跟着老丁系统学习跑步！]]></summary></entry><entry><title type="html">week019</title><link href="/week000/p/week019/" rel="alternate" type="text/html" title="week019" /><published>2025-02-16T21:03:00+08:00</published><updated>2025-02-16T21:03:00+08:00</updated><id>/week000/p/week019</id><content type="html" xml:base="/week000/p/week019/"><![CDATA[<h2 id="本周回顾20250210-20250216">本周回顾（2025.02.10-2025.02.16）</h2>
-
-<ol>
-  <li>做wooldridge的经济学导论第一章习题（熟悉R语言）</li>
-  <li>返校</li>
-  <li>开始写毕业论文</li>
-  <li>pwn.college（x86汇编write and read）</li>
-</ol>
-
-<h2 id="下周安排20250217-20250223">下周安排（2025.02.17-2025.02.23）</h2>
-
-<ol>
-  <li>毕业论文</li>
-  <li>wooldridge的经济学导论第二章</li>
-  <li>pwn.college</li>
-  <li>每天跑步</li>
-</ol>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="week000" /><summary type="html"><![CDATA[本周回顾（2025.02.10-2025.02.16）]]></summary></entry></feed>
+<p>奔跑吧！我的青春！</p>]]></content><author><name>wuhulamb</name><email>wuhulamb@163.com</email></author><category term="日记" /><summary type="html"><![CDATA[老丁是校田径队的老师，我跑步的时候常常看到他带着同学们训练。一次偶然的机会，我看到一个管乐团的同学也在一块训练。聊过后得知是老师看WJY跑得不错，让WJY跟着一块练练。于是我也想“跟着练练”。某天，我偷偷跟在队伍后面，被老丁看到问了一句，“我们这儿可不是在上课，是专业训练噢。”我还是悻悻地跟在后面，不近不远地跟着。热身结束，老丁看我还没走，就默许我一块练了。就这样，我开始跟着老丁系统学习跑步！]]></summary></entry></feed>
